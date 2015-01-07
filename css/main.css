@@ -12,11 +12,17 @@
   background-repeat: no-repeat;
   height: 523px;
   text-transform: uppercase;
-  overflow: auto
+  overflow: auto;
+  padding-top: 10px;
 }
 
 .titleleft {
+  display: inline;
   float: left;
+}
+
+.titleleft > img {
+  vertical-align: middle;
 }
 
 .titleright {
@@ -24,8 +30,13 @@
 }
 
 .title {
+  clear: both;
   color: white;
   text-transform: uppercase;
   text-align: center;
-  vertical-align: middle;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  text-align: center;
 }
