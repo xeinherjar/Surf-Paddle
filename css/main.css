@@ -48,11 +48,14 @@
   color: white;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 72px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  margin-top: 188px;
+  line-height: 111px;
 }
 
 .subtitle {
   text-transform: none;
   text-align: center;
+  /*margin-top: -15px;*/
 }
