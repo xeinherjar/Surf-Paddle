@@ -17,16 +17,24 @@
 }
 
 .titleleft {
-  display: inline;
   float: left;
+  margin-left: 140px;
+  margin-top: -5px;
 }
 
 .titleleft > img {
   vertical-align: middle;
+  margin-right: 6px;
+}
+
+.titleleft > span {
+  letter-spacing: -0.5px;
 }
 
 .titleright {
   float: right;
+  margin-right: 140px;
+  margin-top: -5px;
 }
 
 .title {
@@ -34,9 +42,11 @@
   color: white;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
 }
 
 .subtitle {
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
