@@ -69,8 +69,8 @@
 
 .article {
   display: inline-block;
-  margin-right: 0;
-  max-width: 65%;
+  padding-right: 50px;
+  max-width: 60%;
   float: left;
 }
 
@@ -102,3 +102,9 @@
   display: block;
   margin: 0 auto;
 }
+
+.author > span {
+  display: block;
+  text-align: center;
+}
+
