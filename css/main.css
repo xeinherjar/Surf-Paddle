@@ -57,5 +57,28 @@
 .subtitle {
   text-transform: none;
   text-align: center;
-  /*margin-top: -15px;*/
 }
+
+/* ARTICLE */
+
+.main {
+  font-family: 'Open Sans', sans-serif;
+  margin: 30px 168px;
+}
+
+.article {
+  display: inline-block;
+  margin-right: 0;
+  max-width: 70%;
+}
+
+.article-headline {
+  font-size: 58px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+/* SIDEBAR */
+
