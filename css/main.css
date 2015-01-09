@@ -82,14 +82,27 @@
   letter-spacing: -1px;
 }
 
+.byline {
+  margin-top: 5px;
+  color: rgb(158, 174, 187);
+}
+
 .byline  a {
   text-decoration: none;
   font-size: 14px;
 }
 
+.byline .date {
+  text-decoration: underline;
+  color: rgb(158, 174, 187);
+}
+
 .byline img {
   width: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
 }
+
 
 /* SIDEBAR */
 .side-bar {
