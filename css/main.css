@@ -52,6 +52,7 @@
   font-size: 100px;
   margin-top: 188px;
   line-height: 111px;
+  text-shadow: 1px 1px black;
 }
 
 .subtitle {
@@ -274,6 +275,7 @@ hr {
   bottom: 10px;
   left: 12px;
   font-family: 'Oswald' sans-serif;
+  padding-right: 10px;
 }
 
 .post-link:hover img {
@@ -293,6 +295,7 @@ hr {
   float: left;
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: 160px;
 }
 
 .footer-bar-left > img {
@@ -300,5 +303,24 @@ hr {
 }
 
 .footer-bar-left > span {
-  color: white;
+  color: rgb(187, 199, 207);
+  margin-left: 12px;
+  font-size: 14px;
+}
+
+.footer-bar-right {
+  float: right;
+  margin: 25px 0;
+  color: rgb(187, 199, 207);
+}
+
+.footer-bar-right ul li {
+  display: inline-block;
+  font-size: 14px;
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+}
+
+.footer-bar-right ul li:last-child {
+  border-right: 0;
 }
