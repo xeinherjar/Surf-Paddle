@@ -157,8 +157,8 @@
 }
 
 .social-media li:nth-child(2) {
-  border-right: 1px solid lightgray;
-  border-left: 1px solid lightgray;
+  border-right: 1px solid rgba(211, 211, 211, 0.5);
+  border-left: 1px solid rgba(211, 211, 211, 0.5);
 }
 
 .ad {
