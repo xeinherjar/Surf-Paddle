@@ -123,6 +123,39 @@
   text-transform: uppercase;
 }
 
+.article-interaction {
+  display: inline-block;
+}
+
+.button img {
+  background-color: rgb(94, 104, 111);
+  padding: 8px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.button span {
+  padding-right: 5px;
+  letter-spacing: -.05px;
+  color: white;
+}
+
+.button {
+  font-size: 14px;
+  background: rgb(163, 179, 191);
+  display: inline-block;
+  margin-left: 5px;
+  padding-right: 12px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(16, 109, 179);
+}
+
+.button:hover img {
+  background-color: rgb(8, 52, 82);
+}
 
 /* SIDEBAR */
 .side-bar {
