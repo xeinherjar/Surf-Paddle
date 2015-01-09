@@ -103,6 +103,15 @@
   padding-right: 5px;
 }
 
+.quote {
+  border-left: 2px solid lightgray;
+  display: block;
+  font-size: 30px;
+  color: rgb(2, 100, 174);
+  padding-left: 15px;
+  line-height: 55px;
+}
+
 
 /* SIDEBAR */
 .side-bar {
