@@ -232,3 +232,18 @@
 .sidebar-text a {
   color: rgb(158, 174, 187);
 }
+
+/* FOOTER */
+hr {
+  color: rgb(158, 174, 187);
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.footer-header {
+  font-family: 'Oswald' sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 70px;
+  text-align: center;
+}
