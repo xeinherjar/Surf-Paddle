@@ -73,6 +73,14 @@
   max-width: 60%;
   float: left;
   line-height: 22px;
+  color: rgb(84, 95, 103);
+}
+
+.article a {
+  color: rgb(158, 174, 187);
+}
+.article a:hover {
+  color: rgb(2, 100, 174);
 }
 
 .article-headline {
