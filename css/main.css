@@ -72,6 +72,7 @@
   padding-right: 50px;
   max-width: 60%;
   float: left;
+  line-height: 22px;
 }
 
 .article-headline {
@@ -171,4 +172,22 @@
   float: right;
   color: rgb(158, 174, 187);
   font-size: 14px;
+}
+
+.sidebar-heading {
+  color: rgb(2, 100, 174);
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+
+.sidebar-text {
+  color: rgb(158, 174, 187);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sidebar-text a {
+  color: rgb(158, 174, 187);
 }
