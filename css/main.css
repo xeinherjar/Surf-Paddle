@@ -251,8 +251,12 @@ hr {
 .post-links {
   width: 100%;
   font-size: 0;
-  background-color: RGB(8, 52, 82);
-  font-size: 0;
+  background-color: rgb(8, 52, 82);
+}
+
+.post-links > div {
+  position: relative;
+  display: inline;
 }
 
 .post-links img {
@@ -262,6 +266,39 @@ hr {
   width: 25%;
 }
 
-.post-links img:hover {
+.post-links span {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  font-family: 'Oswald' sans-serif;
+}
+
+.post-link:hover img {
   opacity: 1;
+}
+
+.post-link:hover span {
+  color: white;
+}
+
+.footer-bar {
+  overflow: auto;
+  background-color: rgb(8, 52, 82);
+}
+
+.footer-bar-left {
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer-bar-left > img {
+  vertical-align: middle;
+}
+
+.footer-bar-left > span {
+  color: white;
 }
