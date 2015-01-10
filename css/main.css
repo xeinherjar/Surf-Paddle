@@ -313,8 +313,14 @@ hr {
 
 .footer-bar-right {
   float: right;
-  margin: 25px 0;
+  margin: 20px 125px;
+}
+
+.footer-bar-right a {
   color: rgb(187, 199, 207);
+  text-decoration: none;
+  font-weight: 100;
+  padding: 5px;
 }
 
 .footer-bar-right ul li {
@@ -323,6 +329,7 @@ hr {
   border-right: 1px solid lightgray;
   padding-right: 5px;
 }
+
 
 .footer-bar-right ul li:last-child {
   border-right: 0;
