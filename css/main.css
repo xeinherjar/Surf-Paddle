@@ -199,9 +199,12 @@
   padding: 0 10px;
 }
 
-.social-media li:nth-child(2) {
+.social-media li {
   border-right: 1px solid rgba(211, 211, 211, 0.5);
-  border-left: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.social-media li:last-child {
+  border-right: 0;
 }
 
 .ad {
