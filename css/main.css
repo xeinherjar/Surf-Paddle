@@ -430,10 +430,10 @@ th {
 .byline {
   margin-top: 5px;
   margin-bottom: 35px;
-  color: #9eaebb; }
+  color: #9eaebb;
+  font-size: 14px; }
   .byline a:first-of-type {
     color: #0264ae;
-    font-size: 14px;
     text-decoration: none; }
   .byline img {
     width: 25px;
@@ -492,6 +492,41 @@ th {
   .author a {
     text-decoration: none;
     font-size: 12px;
+    color: #9eaebb; }
+
+.social-media {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+  .social-media li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    border-right: 1px solid rgba(211, 211, 211, 0.5); }
+    .social-media li:last-child {
+      border-right: 0; }
+
+.ad {
+  overflow: auto;
+  margin-bottom: 42px; }
+  .ad > a {
+    text-align: left;
+    float: right;
+    color: #9eaebb;
+    font-size: 14px; }
+
+.sidebar-heading {
+  color: #0264ae;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 8px; }
+
+.sidebar-text {
+  color: #9eaebb;
+  font-size: 14px;
+  line-height: 22px; }
+  .sidebar-text a {
     color: #9eaebb; }
 
 /*# sourceMappingURL=main.css.map */

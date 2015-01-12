@@ -118,10 +118,10 @@ margin-right: 6px;
   margin-top: 5px;
   margin-bottom: 35px;
   color: $link-color;
-
+  font-size: 14px;
+ 
   a:first-of-type {
     color: $link-color-hover;
-    font-size: 14px;
     text-decoration: none;
   }
 
@@ -207,3 +207,49 @@ margin-right: 6px;
   }
 }
 
+.social-media {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    border-right: 1px solid rgba(211, 211, 211, 0.5);
+  
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}
+
+.ad {
+  overflow: auto;
+  margin-bottom: 42px;
+
+  > a {
+    text-align: left;
+    float: right;
+    color: $link-color;
+    font-size: 14px;
+  }
+}
+
+.sidebar-heading {
+  color: $link-color-hover; 
+  font-family: $title-font; 
+  @include upcase();
+  margin-bottom: 8px;
+}
+
+.sidebar-text {
+  color: $link-color;
+  font-size: 14px;
+  line-height: 22px;
+
+  a {
+    color: $link-color;
+  }
+}
