@@ -15,7 +15,11 @@ $button-text-background-color-hover: rgb(16, 109, 179);
 $button-img-background-color-hover: rgb(8, 52, 82);
 $footer-bar-text-color: rgb(187, 199, 207);
 
-@mixin upcase() {
+// MIXINS
+$headline-font-size: 64px;
+@mixin headline() {
+  font-size: $headline-font-size;
+  font-family: $title-font;
   text-transform: uppercase;
 }
 
@@ -31,7 +35,7 @@ $footer-bar-text-color: rgb(187, 199, 207);
   height: 523px;
   overflow: auto;
   padding-top: 15px;
-  @include upcase();
+  text-transform: uppercase;
 }
 
 .title-left {
@@ -63,7 +67,7 @@ margin-right: 6px;
 }
 
 .title {
-  @include upcase();
+  text-transform: uppercase;
   clear: both;
   color: white;
   text-align: center;
@@ -106,9 +110,7 @@ margin-right: 6px;
 }
 
 .article-headline {
-  font-family: $title-font;
-  font-size: 64px;
-  @include upcase();
+  @include headline();
   line-height: 70px;
   letter-spacing: -1px;
   color: $headline-color;
@@ -142,7 +144,7 @@ margin-right: 6px;
   margin-left: 5px;
   margin-bottom: 30px;
   line-height: 55px;
-  @include upcase();
+  text-transform: uppercase;
 }
 
 .article-interaction {
@@ -240,7 +242,7 @@ margin-right: 6px;
 .sidebar-heading {
   color: $link-color-hover; 
   font-family: $title-font; 
-  @include upcase();
+  text-transform: uppercase;
   margin-bottom: 8px;
 }
 
@@ -263,9 +265,7 @@ hr {
 }
 
 .footer-header {
-  font-family: $title-font;
-  font-size: 64px;
-  @include upcase();
+  @include headline();
   text-align: center;
   margin-bottom: 30px;
   color: $button-img-background-color-hover; 
@@ -290,8 +290,8 @@ hr {
 
   span {
     color: black;
-    @include upcase();
     font-size: 30px;
+    text-transform: uppercase;
     position: absolute;
     bottom: 10px;
     left: 12px;
