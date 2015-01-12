@@ -21,6 +21,11 @@ $headline-font-size: 64px;
   font-size: $headline-font-size;
   font-family: $title-font;
   text-transform: uppercase;
+  color: $headline-color;
+}
+
+@mixin clearfix() {
+  overflow: auto;
 }
 
 .container {
@@ -30,10 +35,10 @@ $headline-font-size: 64px;
 // HEADER
 
 .title-bar {
+  @include clearfix();
   background-image: url("../assets/header.jpg");
   background-repeat: no-repeat;
   height: 523px;
-  overflow: auto;
   padding-top: 15px;
   text-transform: uppercase;
 }
@@ -86,9 +91,9 @@ margin-right: 6px;
 // ARTICLE
 
 .main {
+  @include clearfix();
   font-family: $body-font;
   margin: 50px 45px 0px 160px;
-  overflow: auto;
 }
 
 .article {
@@ -113,7 +118,6 @@ margin-right: 6px;
   @include headline();
   line-height: 70px;
   letter-spacing: -1px;
-  color: $headline-color;
 }
 
 .byline {
@@ -228,7 +232,7 @@ margin-right: 6px;
 }
 
 .ad {
-  overflow: auto;
+  @include clearfix();
   margin-bottom: 42px;
 
   > a {
@@ -312,7 +316,7 @@ hr {
 }
 
 .footer-bar {
-  overflow: auto;
+  @include clearfix();
   background-color: $headline-color;
 }
 

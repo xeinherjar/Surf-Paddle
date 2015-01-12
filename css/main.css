@@ -360,10 +360,10 @@ th {
   width: 100%; }
 
 .title-bar {
+  overflow: auto;
   background-image: url("../assets/header.jpg");
   background-repeat: no-repeat;
   height: 523px;
-  overflow: auto;
   padding-top: 15px;
   text-transform: uppercase; }
 
@@ -403,9 +403,9 @@ th {
   text-align: center; }
 
 .main {
+  overflow: auto;
   font-family: Open Sans, sans-serif;
-  margin: 50px 45px 0px 160px;
-  overflow: auto; }
+  margin: 50px 45px 0px 160px; }
 
 .article {
   display: inline-block;
@@ -423,9 +423,9 @@ th {
   font-size: 64px;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
+  color: #083452;
   line-height: 70px;
-  letter-spacing: -1px;
-  color: #083452; }
+  letter-spacing: -1px; }
 
 .byline {
   margin-top: 5px;
@@ -538,6 +538,7 @@ hr {
   font-size: 64px;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
+  color: #083452;
   text-align: center;
   margin-bottom: 30px;
   color: #083452; }
