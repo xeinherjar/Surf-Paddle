@@ -13,7 +13,7 @@ $button-text-background-color: rgb(163, 179, 191);
 $button-img-background-color: rgb(94, 104, 111);
 $button-text-background-color-hover: rgb(16, 109, 179);
 $button-img-background-color-hover: rgb(8, 52, 82);
-
+$footer-bar-text-color: rgb(187, 199, 207);
 
 @mixin upcase() {
   text-transform: uppercase;
@@ -310,3 +310,52 @@ hr {
     color: white;
   }
 }
+
+.footer-bar {
+  overflow: auto;
+  background-color: $headline-color;
+}
+
+.footer-bar-left {
+  float: left;
+  margin: 25px 0 25px 160px;
+
+  > img {
+    vertical-align: middle;
+  }
+
+  > span {
+    color: $footer-bar-text-color;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+}
+
+.footer-bar-right {
+  float: right;
+  margin: 20px 125px;
+
+  a {
+    color: $footer-bar-text-color;
+    text-decoration: none;
+    font-weight: 100;
+    padding: 5px;
+  }
+
+  ul {
+    li {
+      display: inline-block;
+      font-size: 14px;
+      border-right: 1px solid lightgray;
+      padding-right: 5px;
+
+      &:last-child {
+        border-right: 0;
+      }
+    }
+  }
+}
+
+
+
+

@@ -569,4 +569,34 @@ hr {
 .post-link:hover span {
   color: white; }
 
+.footer-bar {
+  overflow: auto;
+  background-color: #083452; }
+
+.footer-bar-left {
+  float: left;
+  margin: 25px 0 25px 160px; }
+  .footer-bar-left > img {
+    vertical-align: middle; }
+  .footer-bar-left > span {
+    color: #bbc7cf;
+    margin-left: 12px;
+    font-size: 14px; }
+
+.footer-bar-right {
+  float: right;
+  margin: 20px 125px; }
+  .footer-bar-right a {
+    color: #bbc7cf;
+    text-decoration: none;
+    font-weight: 100;
+    padding: 5px; }
+  .footer-bar-right ul li {
+    display: inline-block;
+    font-size: 14px;
+    border-right: 1px solid lightgray;
+    padding-right: 5px; }
+    .footer-bar-right ul li:last-child {
+      border-right: 0; }
+
 /*# sourceMappingURL=main.css.map */
