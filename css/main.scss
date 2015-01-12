@@ -1,0 +1,65 @@
+@import 'normalize';
+
+$title-font: Oswald, sans-serif;
+$body-font: Open Sans, sans-serif;
+
+
+.container {
+  width: 100%;
+}
+
+// HEADER
+
+.title-bar {
+  background-image: url("../assets/header.jpg");
+  background-repeat: no-repeat;
+  height: 523px;
+  text-transform: uppercase;
+  overflow: auto;
+  padding-top: 15px;
+}
+
+.title-left {
+  float: left;
+  margin-left: 140px;
+  margin-top: -5px;
+
+  > img {
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+
+  > span {
+    letter-spacing: -0.5px;
+  }
+}
+
+.title-right {
+  float: right;
+  margin-right: 145px;
+  margin-top: 3px;
+  font: $title-font;
+  letter-spacing: 0.6px;
+
+  > span {
+    padding-right: 5px;
+    font-size: 18px;
+  }
+}
+
+.title {
+  clear: both;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font: $body-font;
+  font-size: 100px;
+  margin-top: 188px;
+  line-height: 111px;
+  text-shadow: 1px 1px black;
+}
+
+.subtitle {
+  text-transform: none;
+  text-align: center;
+}
