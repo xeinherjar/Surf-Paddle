@@ -529,4 +529,44 @@ th {
   .sidebar-text a {
     color: #9eaebb; }
 
+hr {
+  border-top: 1px solid #e4e9ec;
+  margin-top: 70px;
+  margin-bottom: 20px; }
+
+.footer-header {
+  font-family: Oswald, sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #083452; }
+
+.post-links {
+  width: 100%;
+  font-size: 0;
+  background-color: #106db3; }
+  .post-links > div {
+    position: relative;
+    display: inline; }
+  .post-links img {
+    margin: 0;
+    padding: 0;
+    opacity: .35;
+    width: 25%; }
+  .post-links span {
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-family: Oswald, sans-serif;
+    padding-right: 10px; }
+
+.post-link:hover img {
+  opacity: 1; }
+.post-link:hover span {
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */

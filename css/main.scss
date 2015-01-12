@@ -253,3 +253,60 @@ margin-right: 6px;
     color: $link-color;
   }
 }
+
+// FOOTER
+
+hr {
+  border-top: 1px solid rgb(228, 233, 236);
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.footer-header {
+  font-family: $title-font;
+  font-size: 64px;
+  @include upcase();
+  text-align: center;
+  margin-bottom: 30px;
+  color: $button-img-background-color-hover; 
+}
+
+.post-links {
+  width: 100%;
+  font-size: 0;
+  background-color: $button-text-background-color-hover;
+
+  > div {
+    position: relative;
+    display: inline;
+  }
+
+  img {
+   margin: 0;
+   padding: 0;
+   opacity: .35;
+   width: 25%;
+  }
+
+  span {
+    color: black;
+    @include upcase();
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-family: $title-font;
+    padding-right: 10px;
+  }
+}
+
+
+.post-link {
+  &:hover img {
+    opacity: 1;
+  }
+
+  &:hover span {
+    color: white;
+  }
+}
